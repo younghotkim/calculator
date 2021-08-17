@@ -15,11 +15,11 @@
         >
 
         <TextView
+            android:id="@+id/txtResult"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="right|center"
             android:textSize="80px"
-            android:text="45*83"
             android:layout_marginLeft="10px"
             android:layout_marginRight="10px"
             />
@@ -37,6 +37,7 @@
         >
 
         <Button
+            android:id="@+id/btn7"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -47,6 +48,7 @@
             />
 
         <Button
+            android:id="@+id/btn8"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -57,6 +59,7 @@
             />
 
         <Button
+            android:id="@+id/btn9"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -67,6 +70,7 @@
             />
 
         <Button
+            android:id="@+id/btnDivide"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -90,6 +94,7 @@
         >
 
         <Button
+            android:id="@+id/btn4"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -100,6 +105,7 @@
             />
 
         <Button
+            android:id="@+id/btn5"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -110,6 +116,7 @@
             />
 
         <Button
+            android:id="@+id/btn6"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -120,6 +127,7 @@
             />
 
         <Button
+            android:id="@+id/btnMultiple"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -143,6 +151,7 @@
         >
 
         <Button
+            android:id="@+id/btn1"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -153,6 +162,7 @@
             />
 
         <Button
+            android:id="@+id/btn2"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -163,6 +173,7 @@
             />
 
         <Button
+            android:id="@+id/btn3"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -173,6 +184,7 @@
             />
 
         <Button
+            android:id="@+id/btnMinus"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -196,6 +208,7 @@
         >
 
         <Button
+            android:id="@+id/btn0"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="3.05"
@@ -206,6 +219,7 @@
             />
 
         <Button
+            android:id="@+id/btnPlus"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="0.95"
@@ -217,6 +231,41 @@
 
     </LinearLayout>
     <!--/버튼 4라인-->
+
+
+    <!--버튼 5라인-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:weightSum="4"
+        android:layout_margin="0px"
+        >
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="ce"
+            />
+
+        <Button
+            android:id="@+id/btnEquation"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="="
+            />
+
+    </LinearLayout>
+    <!--/버튼 5라인-->
 
 
 </LinearLayout>
