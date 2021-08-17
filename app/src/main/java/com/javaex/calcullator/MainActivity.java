@@ -1,13 +1,12 @@
 package com.javaex.calcullator;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -180,6 +179,21 @@ public class MainActivity extends AppCompatActivity {
                         if (symbol == plus) {
 
                             result = n1+n2;
+                            txtResult.setText("" + result);
+
+                        } else if (symbol == minus) {
+
+                            result = n1-n2;
+                            txtResult.setText("" + result);
+
+                        } else if (symbol == multiple) {
+
+                            result = n1*n2;
+                            txtResult.setText("" + result);
+
+                        } else if (symbol == divide) {
+
+                            result = n1/n2;
                             txtResult.setText("" + result);
 
                         }
